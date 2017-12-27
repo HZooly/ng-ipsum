@@ -1,6 +1,6 @@
 {
   "name": "ng-ipsum",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "📑 AngularJS directive that display Lorem Ipsum",
   "main": "ng-ipsum.js",
   "scripts": {
