@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NG Ipsum</title>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="ng-ipsum.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="angularIpsum">
+    <div ng-controller="testCtrl">
+        <input type="number" ng-model="size" />
+        <hr>
+        <ng-ipsum length="size"></ng-ipsum>
+    </div>
+</body>
+
+</html>
