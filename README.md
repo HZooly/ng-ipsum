@@ -1,4 +1,7 @@
 # ng-ipsum
+
+[![npm version](https://badge.fury.io/js/ng-ipsum.svg)](https://badge.fury.io/js/ng-ipsum)
+
 📑 AngularJS directive that display Lorem Ipsum
 
 Easy to install, easy to use.
