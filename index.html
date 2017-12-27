@@ -14,7 +14,8 @@
 
 <body ng-app="angularIpsum">
     <div ng-controller="testCtrl">
-        <input type="number" ng-model="size" />
+        <input type="range" ng-model="size" min="0" max="100000" step="1"/>
+        <input type="number" ng-model="size" min="0" max="100000" step="1"/>
         <hr>
         <ng-ipsum length="size"></ng-ipsum>
     </div>
