@@ -4,7 +4,8 @@
   "description": "📑 AngularJS directive that display Lorem Ipsum",
   "main": "ng-ipsum.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,11 @@
   "bugs": {
     "url": "https://github.com/TorzuoliH/ng-ipsum/issues"
   },
-  "homepage": "https://github.com/TorzuoliH/ng-ipsum#readme",
+  "homepage": "https://torzuolih.github.io/ng-ipsum",
   "dependencies": {
     "angular": "^1.6.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
