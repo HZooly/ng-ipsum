@@ -6,6 +6,8 @@
 
 Easy to install, easy to use.
 
+**Working offline** ~ It doesn't fetch data from a Lorem Ipsum API.
+
 ## Installation
 
 `$ npm install --save ng-ipsum`
